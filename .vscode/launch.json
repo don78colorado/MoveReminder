@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "http://infinityx.duckdns.org/~nguyend/MoveReminderFree/",
+            "url": "http://infinityx.duckdns.org/~nguyend/MoveReminder/",
             "webRoot": "${workspaceFolder}"
         }
     ]
