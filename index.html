@@ -3,54 +3,86 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Move Reminder Free</title>
+    <title>Move Reminder</title>
     <link href="style.css" rel="stylesheet">
-
 </head>
 
 <body>
-    Move Reminder promotes a healthy lifestyle by utilizing your phone's built-in sensors to
-    detect when you've been inactive for too long and reminds you to move.
-    It's customizable and can also be used as a simple pedometer.
+    <p>
+        Move Reminder helps you build a more active routine by checking your step count
+        and reminding you to move when you have not reached your hourly step goal.
+        It can also show your step progress throughout the day.
+    </p>
+
     <h3>How does it work?</h3>
-    This app behaves similarly to the stand reminder found in Apple's smartwatches and works as follows:
+    <p>
+        Move Reminder reads step data from Health Connect. You can use steps recorded by
+        your phone, a watch, or another app that shares steps with Health Connect.
+    </p>
     <ul>
-        <li>You set the number of steps you want to move each hour</li>
-        <li>You have a target goal of 12 active hours each day.</li>
-        <li>Each hour, the app will check your step count and if you have not reached your goal that hour, you will
-            receive a reminder
-            notification ten minutes before the end of the hour.</li>
+        <li>You set the number of steps you want to take each hour.</li>
+        <li>The app checks your steps at minute 50 of each eligible hour.</li>
+        <li>If you have not reached your hourly goal, the app sends a reminder about ten
+            minutes before the hour ends.</li>
+        <li>You can customize your hourly goal and active hours in the app’s settings.</li>
     </ul>
-    <!--
-         <li> The checks begin after your first active hour of the day and ends when you've reached your goal.</li>
-    -->
+    <p>
+        Step data may take time to appear in Health Connect, especially when it comes
+        from another app or a watch.
+    </p>
+
     <h3>Does this app need to stay open to work?</h3>
-    No, your steps will still be counted and you will receive reminders even when the app is closed.
+    <p>
+        No. Scheduled reminders can work while the app is closed if Health Connect
+        background step access, notifications, and Alarms &amp; reminders access are
+        allowed. These permissions can be reviewed in the app or your phone’s settings.
+    </p>
+
     <h3>Do I need to keep the phone with me?</h3>
-    Yes, you will need to keep your phone with you to detect step count.
+    <p>
+        If you rely on your phone to count steps, carry it with you while walking.
+        You can also use steps from a watch or another app if it shares them with
+        Health Connect.
+    </p>
+
     <h3>Will this app work if my device does not have a step count sensor?</h3>
-    It will vary by device. Try checking the step count after using the app for a few hours and decide if the accuracy
-    is good
-    enough for your use.
+    <p>
+        It may. Move Reminder can use steps shared with Health Connect by another
+        device or app. Phone step counting depends on your device and Android version.
+        Check that step data appears in Health Connect and in Move Reminder.
+    </p>
+
     <h3>What is 'Smart mode'?</h3>
-    Smart mode allows notification reminders to be delivered only after an active hour exists for the day.  This
-    prevents you from being disturbed by reminders while you are sleeping since your first notification will only occur
-    after you have moved for the day.  If you turn this feature off, you are eligible for reminders starting the hour
-    specified by the 'Daily starting hour' setting.
+    <p>
+        Smart mode allows reminders only after you have had an active hour that day.
+        This can help avoid reminders before you have started moving. With Smart mode
+        off, reminders can begin at the hour set by the 'Daily starting hour' setting.
+    </p>
+
     <h3>Why am I not receiving reminders when I should be?</h3>
-    Some devices have settings/features that may interfere with the operation of the app. Specific settings and
-    features will vary from phone to phone, but here are some things you could try:
+    <p>Check the following:</p>
     <ul>
-        <li>If there are different battery optimization settings, try a less aggressive one.</li>
-        <li>If there is a protected apps setting on your phone, add the app to the list.</li>
-        <li>Don't swipe away to close the app. Let the app run in the background. In other words, you may press home to
-            navigate to other apps but don't close <em>Move Reminder</em>. On some devices, closing the app completely
-            will
-            remove the hourly checking functionality of the app.</li>
+        <li>In Health Connect, make sure Move Reminder has permission to read steps.</li>
+        <li>For reminders while the app is closed, allow background step access if your
+            device offers it.</li>
+        <li>Make sure notifications are allowed for Move Reminder.</li>
+        <li>On Android 12 and later, allow Move Reminder under Alarms &amp; reminders
+            so it can check your steps on schedule.</li>
+        <li>Confirm that the hourly goal, active hours, and Smart mode settings allow a
+            reminder at that time.</li>
+        <li>If your phone has battery optimization or protected-app settings, try
+            allowing Move Reminder to run in the background.</li>
+        <li>If your steps come from a watch or another app, check that it is sharing
+            steps with Health Connect. Syncing may take time.</li>
     </ul>
+
     <h3>How do I contact the author?</h3>
-    Send an e-mail to endurasoftware2018@gmail.com. If you are contacting about problems/bugs, please use the "Send
-    E-mail" button from the app's help screen to send a debugging log.
+    <p>
+        Send an e-mail to
+        <a href="mailto:endurasoftware2018@gmail.com">endurasoftware2018@gmail.com</a>.
+        For a problem or bug report, use the "Send E-mail" button on the app's Help
+        screen to include a diagnostic log.
+    </p>
 </body>
 
 </html>
